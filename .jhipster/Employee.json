@@ -1,0 +1,117 @@
+{
+    "name": "Employee",
+    "fields": [
+        {
+            "fieldName": "firstName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "middleName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "birthday",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "role",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "location",
+            "fieldType": "LocationType",
+            "fieldValues": "CDMX,HMO,CUU,SLP,MERIDA,REMOTE",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "experienceStartYear",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "active",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "gender",
+            "fieldType": "Gender",
+            "fieldValues": "MALE,FEMALE,OTHER"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "contactInfo",
+            "otherEntityRelationshipName": "employee",
+            "relationshipName": "contactInfo",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "keyDate",
+            "otherEntityRelationshipName": "employee",
+            "relationshipName": "keyDates"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "nextOfKin",
+            "otherEntityRelationshipName": "employee",
+            "relationshipName": "nextOfKins"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "employeeClientAssignment",
+            "otherEntityRelationshipName": "employee",
+            "relationshipName": "assignments"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "employeeSkill",
+            "otherEntityRelationshipName": "employee",
+            "relationshipName": "skills"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "employeeBudgetAssignment",
+            "otherEntityRelationshipName": "employee",
+            "relationshipName": "budgets"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "employee",
+            "otherEntityRelationshipName": "employee",
+            "relationshipName": "manager",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190517054545",
+    "entityTableName": "employee",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

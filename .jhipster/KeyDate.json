@@ -1,0 +1,36 @@
+{
+    "name": "KeyDate",
+    "fields": [
+        {
+            "fieldName": "startDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "KeyDateType",
+            "fieldValues": "ACADEMY,ACADEMY_PLUS,EMPLOYEE,TALENT_INCUBATOR,NO_CLIENT_POOL"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "employee",
+            "otherEntityRelationshipName": "keyDates",
+            "relationshipName": "employee",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190517054553",
+    "entityTableName": "key_date",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

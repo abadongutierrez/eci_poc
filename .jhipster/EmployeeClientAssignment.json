@@ -1,0 +1,52 @@
+{
+    "name": "EmployeeClientAssignment",
+    "fields": [
+        {
+            "fieldName": "usage",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "min",
+                "max"
+            ],
+            "fieldValidateRulesMin": 0,
+            "fieldValidateRulesMax": 100
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "employee",
+            "otherEntityRelationshipName": "assignments",
+            "relationshipName": "employee",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "clientProject",
+            "otherEntityRelationshipName": "assignments",
+            "relationshipName": "project",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190517054550",
+    "entityTableName": "employee_client_assignment",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

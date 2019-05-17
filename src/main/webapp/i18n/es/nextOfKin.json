@@ -1,0 +1,27 @@
+{
+  "eciApp": {
+    "nextOfKin": {
+      "home": {
+        "title": "Next Of Kins",
+        "createLabel": "Crear nuevo Next Of Kin",
+        "createOrEditLabel": "Crear o editar Next Of Kin"
+      },
+      "created": "Un nuevo Next Of Kin ha sido creado con el identificador {{ param }}",
+      "updated": "Un Next Of Kin ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Next Of Kin ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Next Of Kin {{ id }}?"
+      },
+      "detail": {
+        "title": "Next Of Kin"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "homeNumber": "Home Number",
+      "mobileNumber": "Mobile Number",
+      "kinship": "Kinship",
+      "employee": "Employee"
+    }
+  }
+}

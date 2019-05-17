@@ -1,0 +1,38 @@
+{
+    "name": "EmployeeSkill",
+    "fields": [
+        {
+            "fieldName": "years",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "skill",
+            "otherEntityRelationshipName": "employeeSkill",
+            "relationshipName": "skill",
+            "otherEntityField": "name"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "employee",
+            "otherEntityRelationshipName": "skills",
+            "relationshipName": "employee",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190517054555",
+    "entityTableName": "employee_skill",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

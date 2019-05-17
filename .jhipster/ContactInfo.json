@@ -1,0 +1,33 @@
+{
+    "name": "ContactInfo",
+    "fields": [
+        {
+            "fieldName": "email",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "homeNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mobileNumber",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190517054546",
+    "entityTableName": "contact_info",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

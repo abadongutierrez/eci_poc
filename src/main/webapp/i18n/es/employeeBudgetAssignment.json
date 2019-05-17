@@ -1,0 +1,25 @@
+{
+  "eciApp": {
+    "employeeBudgetAssignment": {
+      "home": {
+        "title": "Employee Budget Assignments",
+        "createLabel": "Crear nuevo Employee Budget Assignment",
+        "createOrEditLabel": "Crear o editar Employee Budget Assignment"
+      },
+      "created": "Un nuevo Employee Budget Assignment ha sido creado con el identificador {{ param }}",
+      "updated": "Un Employee Budget Assignment ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Employee Budget Assignment ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Employee Budget Assignment {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Budget Assignment"
+      },
+      "usage": "Usage",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "employee": "Employee",
+      "budget": "Budget"
+    }
+  }
+}

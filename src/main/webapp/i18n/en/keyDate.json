@@ -1,0 +1,24 @@
+{
+  "eciApp": {
+    "keyDate": {
+      "home": {
+        "title": "Key Dates",
+        "createLabel": "Create a new Key Date",
+        "createOrEditLabel": "Create or edit a Key Date"
+      },
+      "created": "A new Key Date is created with identifier {{ param }}",
+      "updated": "A Key Date is updated with identifier {{ param }}",
+      "deleted": "A Key Date is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Key Date {{ id }}?"
+      },
+      "detail": {
+        "title": "Key Date"
+      },
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "type": "Type",
+      "employee": "Employee"
+    }
+  }
+}

@@ -45,6 +45,25 @@ public class CacheConfiguration {
             createCache(cm, com.nearsoft.eci.domain.User.class.getName() + ".authorities");
             createCache(cm, com.nearsoft.eci.domain.PersistentToken.class.getName());
             createCache(cm, com.nearsoft.eci.domain.User.class.getName() + ".persistentTokens");
+            createCache(cm, com.nearsoft.eci.domain.Employee.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.Employee.class.getName() + ".keyDates");
+            createCache(cm, com.nearsoft.eci.domain.Employee.class.getName() + ".nextOfKins");
+            createCache(cm, com.nearsoft.eci.domain.Employee.class.getName() + ".assignments");
+            createCache(cm, com.nearsoft.eci.domain.Employee.class.getName() + ".skills");
+            createCache(cm, com.nearsoft.eci.domain.Employee.class.getName() + ".budgets");
+            createCache(cm, com.nearsoft.eci.domain.ContactInfo.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.NextOfKin.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.Client.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.Client.class.getName() + ".clientProjects");
+            createCache(cm, com.nearsoft.eci.domain.ClientProject.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.ClientProject.class.getName() + ".assignments");
+            createCache(cm, com.nearsoft.eci.domain.EmployeeClientAssignment.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.Budget.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.Budget.class.getName() + ".assignments");
+            createCache(cm, com.nearsoft.eci.domain.EmployeeBudgetAssignment.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.KeyDate.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.Skill.class.getName());
+            createCache(cm, com.nearsoft.eci.domain.EmployeeSkill.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

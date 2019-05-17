@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity EmployeeBudgetAssignment.
+    -->
+    <changeSet id="20190517054552-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="employee_id"
+                                 baseTableName="employee_budget_assignment"
+                                 constraintName="fk_employee_budget_assignment_employee_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="employee"/>
+
+        <addForeignKeyConstraint baseColumnNames="budget_id"
+                                 baseTableName="employee_budget_assignment"
+                                 constraintName="fk_employee_budget_assignment_budget_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="budget"/>
+
+    </changeSet>
+</databaseChangeLog>

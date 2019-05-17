@@ -1,0 +1,23 @@
+{
+  "eciApp": {
+    "contactInfo": {
+      "home": {
+        "title": "Contact Infos",
+        "createLabel": "Crear nuevo Contact Info",
+        "createOrEditLabel": "Crear o editar Contact Info"
+      },
+      "created": "Un nuevo Contact Info ha sido creado con el identificador {{ param }}",
+      "updated": "Un Contact Info ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Contact Info ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Contact Info {{ id }}?"
+      },
+      "detail": {
+        "title": "Contact Info"
+      },
+      "email": "Email",
+      "homeNumber": "Home Number",
+      "mobileNumber": "Mobile Number"
+    }
+  }
+}

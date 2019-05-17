@@ -1,0 +1,13 @@
+{
+  "eciApp": {
+    "LocationType": {
+      "null": "",
+      "CDMX": "CDMX",
+      "HMO": "HMO",
+      "CUU": "CUU",
+      "SLP": "SLP",
+      "MERIDA": "MERIDA",
+      "REMOTE": "REMOTE"
+    }
+  }
+}

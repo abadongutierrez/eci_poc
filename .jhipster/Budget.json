@@ -1,0 +1,26 @@
+{
+    "name": "Budget",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "employeeBudgetAssignment",
+            "otherEntityRelationshipName": "budget",
+            "relationshipName": "assignments"
+        }
+    ],
+    "changelogDate": "20190517054551",
+    "entityTableName": "budget",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

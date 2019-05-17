@@ -7,6 +7,17 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entidades",
+        "employee": "Employee",
+        "contactInfo": "Contact Info",
+        "nextOfKin": "Next Of Kin",
+        "client": "Client",
+        "clientProject": "Client Project",
+        "employeeClientAssignment": "Employee Client Assignment",
+        "budget": "Budget",
+        "employeeBudgetAssignment": "Employee Budget Assignment",
+        "keyDate": "Key Date",
+        "skill": "Skill",
+        "employeeSkill": "Employee Skill",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

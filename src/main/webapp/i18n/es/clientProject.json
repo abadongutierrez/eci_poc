@@ -1,0 +1,25 @@
+{
+  "eciApp": {
+    "clientProject": {
+      "home": {
+        "title": "Client Projects",
+        "createLabel": "Crear nuevo Client Project",
+        "createOrEditLabel": "Crear o editar Client Project"
+      },
+      "created": "Un nuevo Client Project ha sido creado con el identificador {{ param }}",
+      "updated": "Un Client Project ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Client Project ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Client Project {{ id }}?"
+      },
+      "detail": {
+        "title": "Client Project"
+      },
+      "name": "Name",
+      "code": "Code",
+      "description": "Description",
+      "assignments": "Assignments",
+      "client": "Client"
+    }
+  }
+}

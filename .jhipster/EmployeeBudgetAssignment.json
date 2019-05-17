@@ -1,0 +1,52 @@
+{
+    "name": "EmployeeBudgetAssignment",
+    "fields": [
+        {
+            "fieldName": "usage",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "min",
+                "max"
+            ],
+            "fieldValidateRulesMin": 0,
+            "fieldValidateRulesMax": 100
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "employee",
+            "otherEntityRelationshipName": "budgets",
+            "relationshipName": "employee",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "budget",
+            "otherEntityRelationshipName": "assignments",
+            "relationshipName": "budget",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190517054552",
+    "entityTableName": "employee_budget_assignment",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

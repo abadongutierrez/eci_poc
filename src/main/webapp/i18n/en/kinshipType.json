@@ -1,0 +1,13 @@
+{
+  "eciApp": {
+    "KinshipType": {
+      "null": "",
+      "SPOUSE": "SPOUSE",
+      "FATHER": "FATHER",
+      "MOTHER": "MOTHER",
+      "BROTHER": "BROTHER",
+      "SISTER": "SISTER",
+      "OTHER": "OTHER"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "eciApp": {
+    "skill": {
+      "home": {
+        "title": "Skills",
+        "createLabel": "Crear nuevo Skill",
+        "createOrEditLabel": "Crear o editar Skill"
+      },
+      "created": "Un nuevo Skill ha sido creado con el identificador {{ param }}",
+      "updated": "Un Skill ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Skill ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Skill {{ id }}?"
+      },
+      "detail": {
+        "title": "Skill"
+      },
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}

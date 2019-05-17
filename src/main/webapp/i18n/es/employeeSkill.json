@@ -1,0 +1,24 @@
+{
+  "eciApp": {
+    "employeeSkill": {
+      "home": {
+        "title": "Employee Skills",
+        "createLabel": "Crear nuevo Employee Skill",
+        "createOrEditLabel": "Crear o editar Employee Skill"
+      },
+      "created": "Un nuevo Employee Skill ha sido creado con el identificador {{ param }}",
+      "updated": "Un Employee Skill ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Employee Skill ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Employee Skill {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Skill"
+      },
+      "years": "Years",
+      "startDate": "Start Date",
+      "skill": "Skill",
+      "employee": "Employee"
+    }
+  }
+}

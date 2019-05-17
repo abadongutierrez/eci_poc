@@ -1,0 +1,36 @@
+{
+  "eciApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "createLabel": "Crear nuevo Employee",
+        "createOrEditLabel": "Crear o editar Employee"
+      },
+      "created": "Un nuevo Employee ha sido creado con el identificador {{ param }}",
+      "updated": "Un Employee ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Employee ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Employee {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "firstName": "First Name",
+      "middleName": "Middle Name",
+      "lastName": "Last Name",
+      "birthday": "Birthday",
+      "role": "Role",
+      "location": "Location",
+      "experienceStartYear": "Experience Start Year",
+      "active": "Active",
+      "gender": "Gender",
+      "contactInfo": "Contact Info",
+      "keyDates": "Key Dates",
+      "nextOfKins": "Next Of Kins",
+      "assignments": "Assignments",
+      "skills": "Skills",
+      "budgets": "Budgets",
+      "manager": "Manager"
+    }
+  }
+}

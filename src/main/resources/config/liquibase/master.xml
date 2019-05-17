@@ -11,6 +11,24 @@
     <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054545_added_entity_Employee.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054546_added_entity_ContactInfo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054547_added_entity_NextOfKin.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054548_added_entity_Client.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054549_added_entity_ClientProject.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054550_added_entity_EmployeeClientAssignment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054551_added_entity_Budget.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054552_added_entity_EmployeeBudgetAssignment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054553_added_entity_KeyDate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054554_added_entity_Skill.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054555_added_entity_EmployeeSkill.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20190517054545_added_entity_constraints_Employee.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054547_added_entity_constraints_NextOfKin.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054549_added_entity_constraints_ClientProject.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054550_added_entity_constraints_EmployeeClientAssignment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054552_added_entity_constraints_EmployeeBudgetAssignment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054553_added_entity_constraints_KeyDate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190517054555_added_entity_constraints_EmployeeSkill.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

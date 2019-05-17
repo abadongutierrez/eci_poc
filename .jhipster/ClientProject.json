@@ -1,0 +1,47 @@
+{
+    "name": "ClientProject",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "code",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "employeeClientAssignment",
+            "otherEntityRelationshipName": "project",
+            "relationshipName": "assignments"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "client",
+            "otherEntityRelationshipName": "clientProject",
+            "relationshipName": "client",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190517054549",
+    "entityTableName": "client_project",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

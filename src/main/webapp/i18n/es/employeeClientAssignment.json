@@ -1,0 +1,25 @@
+{
+  "eciApp": {
+    "employeeClientAssignment": {
+      "home": {
+        "title": "Employee Client Assignments",
+        "createLabel": "Crear nuevo Employee Client Assignment",
+        "createOrEditLabel": "Crear o editar Employee Client Assignment"
+      },
+      "created": "Un nuevo Employee Client Assignment ha sido creado con el identificador {{ param }}",
+      "updated": "Un Employee Client Assignment ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Employee Client Assignment ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Employee Client Assignment {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee Client Assignment"
+      },
+      "usage": "Usage",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "employee": "Employee",
+      "project": "Project"
+    }
+  }
+}

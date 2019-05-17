@@ -1,0 +1,12 @@
+{
+  "eciApp": {
+    "KeyDateType": {
+      "null": "",
+      "ACADEMY": "ACADEMY",
+      "ACADEMY_PLUS": "ACADEMY_PLUS",
+      "EMPLOYEE": "EMPLOYEE",
+      "TALENT_INCUBATOR": "TALENT_INCUBATOR",
+      "NO_CLIENT_POOL": "NO_CLIENT_POOL"
+    }
+  }
+}

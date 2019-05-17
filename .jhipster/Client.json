@@ -1,0 +1,29 @@
+{
+    "name": "Client",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "clientProject",
+            "otherEntityRelationshipName": "client",
+            "relationshipName": "clientProject"
+        }
+    ],
+    "changelogDate": "20190517054548",
+    "entityTableName": "client",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

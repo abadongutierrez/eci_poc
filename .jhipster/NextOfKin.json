@@ -1,0 +1,57 @@
+{
+    "name": "NextOfKin",
+    "fields": [
+        {
+            "fieldName": "firstName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "homeNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mobileNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "kinship",
+            "fieldType": "KinshipType",
+            "fieldValues": "SPOUSE,FATHER,MOTHER,BROTHER,SISTER,OTHER",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "employee",
+            "otherEntityRelationshipName": "nextOfKins",
+            "relationshipName": "employee",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190517054547",
+    "entityTableName": "next_of_kin",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
