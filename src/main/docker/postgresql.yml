@@ -1,0 +1,11 @@
+version: '2'
+services:
+  eci-postgresql:
+    image: postgres:11.2
+    # volumes:
+    #     - ~/volumes/jhipster/eci/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=eci
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
